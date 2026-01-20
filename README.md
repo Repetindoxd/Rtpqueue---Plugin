@@ -67,7 +67,7 @@ rtp:
 
 ## 🚀 Instalação
 
-1. Baixe o arquivo `.jar` na aba [eleases.
+1. Baixe o arquivo `.jar` na aba Releases.
 2. Coloque-o na pasta `plugins` do seu servidor.
 3. Reinicie o servidor ou utilize um gerenciador de plugins.
 4. Configure as mensagens e mundos no `config.yml`.
