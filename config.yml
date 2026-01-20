@@ -1,0 +1,41 @@
+# RTPQueue Configuration
+
+# Allowed armors for joining the queue
+# Valid values: DIAMOND_HELMET, DIAMOND_CHESTPLATE, DIAMOND_LEGGINGS, DIAMOND_BOOTS,
+#               NETHERITE_HELMET, NETHERITE_CHESTPLATE, NETHERITE_LEGGINGS, NETHERITE_BOOTS
+allowed-armors:
+  - DIAMOND_HELMET
+  - DIAMOND_CHESTPLATE
+  - DIAMOND_LEGGINGS
+  - DIAMOND_BOOTS
+  - NETHERITE_HELMET
+  - NETHERITE_CHESTPLATE
+  - NETHERITE_LEGGINGS
+  - NETHERITE_BOOTS
+
+messages:
+  no-armor: "&cVocê precisa estar usando armadura de diamante ou netherite para entrar na fila!"
+  has-crystal: "&cVocê não pode ter crystal no inventário para entrar nesta fila!"
+  joined-queue: "&aVocê entrou na fila: %queue%!"
+  left-queue: "&cVocê saiu da fila!"
+  picked-up-crystal: "&cVocê pegou um crystal e foi removido da fila 'Sem Crystal'!"
+  crystal-penalty: "&cUm dos jogadores da partida adquiriu um crystal proibido! Teleportando ambos novamente para locais separados..."
+  reload-success: "&aConfiguração recarregada com sucesso!"
+  no-permission: "&cVocê não tem permissão para executar este comando."
+
+gui:
+  title: "&8Fila RTP"
+  no-crystal-name: "&6Fila Sem Crystal"
+  no-crystal-lore:
+    - "&7Clique para entrar na fila"
+    - "&7onde o uso de crystal é proibido."
+  with-crystal-name: "&bFila Com Crystal"
+  with-crystal-lore:
+    - "&7Clique para entrar na fila"
+    - "&7onde o uso de crystal é permitido."
+
+rtp:
+  radius: 5000
+  world: "world"
+  glowing-duration: 10
+  glowing-color: "WHITE"
