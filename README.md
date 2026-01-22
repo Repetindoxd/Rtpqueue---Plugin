@@ -11,7 +11,7 @@ O **RTPQueue** é um plugin de alta performance para servidores competitivos (Mi
 
 ### ⚖️ Filas Inteligentes
 
-* **Fila Sem Crystal:** Focada em combate clássico. O plugin monitora o inventário em tempo real para impedir o uso ou posse de End Crystals.
+* **Fila Sem Crystal:** Focada em combate clássico. O plugin monitora o inventário em tempo real para impedir o uso ou posse de End Crystals ou Anchors.
 * **Fila Com Crystal:** Combate livre, sem restrições de itens.
 
 ### ⚔️ Matchmaking Dinâmico
